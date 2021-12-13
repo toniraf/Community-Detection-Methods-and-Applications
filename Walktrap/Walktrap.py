@@ -6,9 +6,11 @@ from igraph import *
 
 filename = sys.argv[1]
 # G = nx.read_edgelist(filename, nodetype=int)
-f = Graph.Read_Edgelist(filename, directed = False)
+f = Graph.Read_Edgelist(filename, directed=False)
 # print(f)
 v = f.community_walktrap()
 clusters = v.as_clustering()
-print(clusters)
-
+print(clusters.modularity)
+pal = igraph.drawing.colors.ClusterColoringPalette(len(clusters))
+f.vs['color']=pal.get_many(clusters.membership)
+igraph.plot(f)
