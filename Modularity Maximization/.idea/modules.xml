@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HGN/.idea/HGN.iml" filepath="$PROJECT_DIR$/../HGN/.idea/HGN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../HGN_no_db/.idea/HGN_no_db.iml" filepath="$PROJECT_DIR$/../../../HGN_no_db/.idea/HGN_no_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Modularity Maximization.iml" filepath="$PROJECT_DIR$/.idea/Modularity Maximization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Walktrap/.idea/Walktrap.iml" filepath="$PROJECT_DIR$/../Walktrap/.idea/Walktrap.iml" />
+    </modules>
+  </component>
+</project>
